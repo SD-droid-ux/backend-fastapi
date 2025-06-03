@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+databases[postgresql]
+sqlalchemy
+pandas
+python-multipart
+python-jose
