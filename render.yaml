@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: backend-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: ./start.sh
+    region: oregon
+    plan: free
+    branch: main
